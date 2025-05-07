@@ -19,12 +19,14 @@ It is strongly recommended that these settings be used in your workspace. You mu
     /**
      * JavaScript Essentials Config
      */
+    // General JavaScript Settings
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "javascript.format.enable": true,
     "javascript.format.semicolons": "insert",
     "javascript.preferences.quoteStyle": "single",
+    // ESLint Settings
     "eslint.enable": true,
     "eslint.codeAction.showDocumentation": {
         "enable": true
@@ -33,20 +35,18 @@ It is strongly recommended that these settings be used in your workspace. You mu
         "enable": true,
         "location": "sameLine"
     },
+    // npm Intellisense Settings
     "npm-intellisense.importES6": true,
     "npm-intellisense.importQuotes": "'",
     "npm-intellisense.importLinebreak": ";\r\n",
     "npm-intellisense.importDeclarationType": "const",
-    /**
-     * The following line is for the specific configuration of the 
-     * Path-Intellisense extension over Javascript
-     */
-    "javascript.suggest.paths": false,
-    "path-intellisense.showHiddenFiles": true,
-    "formattingToggle.affects": [
-		"editor.formatOnPaste",
-		"editor.formatOnType"
-	]
+    // Visual Studio IntelliCode Settings
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // Debugger for Firefox Settings
+    "firefox.keepProfileChanges": false,
+    "firefox.port": 6000,
+    "firefox.reloadOnChange": true
 }
 ```
 
@@ -85,11 +85,8 @@ This extension pack includes the following extensions:
 | Visual Studio IntelliCode      | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/VisualStudioExptTeam.vscodeintellicode?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) [![Installs](https://flat.badgen.net/vs-marketplace/i/VisualStudioExptTeam.vscodeintellicode?color=blue)](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) [![Rating](https://flat.badgen.net/vs-marketplace/rating/VisualStudioExptTeam.vscodeintellicode?color=blue)](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)                         |
 | JavaScript (ES6) code snippets | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/xabikos.JavaScriptSnippets?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) [![Installs](https://flat.badgen.net/vs-marketplace/i/xabikos.JavaScriptSnippets?color=blue)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) [![Rating](https://flat.badgen.net/vs-marketplace/rating/xabikos.JavaScriptSnippets?color=blue)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)                                                                                                 |
 | Debugger for Firefox           | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/firefox-devtools.vscode-firefox-debug?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug) [![Installs](https://flat.badgen.net/vs-marketplace/i/firefox-devtools.vscode-firefox-debug?color=blue)](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug) [![Rating](https://flat.badgen.net/vs-marketplace/rating/firefox-devtools.vscode-firefox-debug?color=blue)](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug)                               |
-| Path Intellisense              | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/christian-kohler.path-intellisense?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) [![Installs](https://flat.badgen.net/vs-marketplace/i/christian-kohler.path-intellisense?color=blue)](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) [![Rating](https://flat.badgen.net/vs-marketplace/rating/christian-kohler.path-intellisense?color=blue)](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)                                                 |
-| Formatting Toggle              | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/tombonnike.vscode-status-bar-format-toggle?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) [![Installs](https://flat.badgen.net/vs-marketplace/i/tombonnike.vscode-status-bar-format-toggle?color=blue)](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) [![Rating](https://flat.badgen.net/vs-marketplace/rating/tombonnike.vscode-status-bar-format-toggle?color=blue)](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) |
 
 [VSC-Essentials]: https://github.com/Gydunhn/VSC-Essentials
-[JavaScript Essentials extension pack]: https://marketplace.visualstudio.com/items?itemName=Gydunhn.javascript-essentials
 [here]: /.vscode/settings.json
 [settings.json]: /.vscode/settings.json
 [Debugger for Firefox]: https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug
