@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2025-05-07
+
+### Added
+
+* VSC-Essentials-Core, by Gydunhn - Base package with language-agnostic essential extensions for any language, providing fundamental functionality for all projects
+
+### Removed
+
+* Path Intellisense, by Christian Kohler - Moved to the VSC-Essentials-Core package.
+* Status Bar Format Toggle, by tombonnike - Moved to the VSC-Essentials-Core package.
+
+### Changed
+
+* Restructured to leverage shared extensions through the VSC-Essentials-Core package, keeping only JavaScript-specific extensions
+* Updated settings.json to reflect the new extension structure
+
 ## [0.1.1] - 2023-02-18
 
 ### Changed
@@ -26,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-* jsHint, This extension is deprecated. Use the ESLint extension instead. This repository has been archived by the owner on Jan 17, 2023. It is now read-only.
+* jsHint, This extension is deprecated. We will use the ESLint extension instead. The official repository has been archived by the owner on Jan 17, 2023. It is now read-only.
 
 ### Changed
 
@@ -76,6 +92,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   * Created extension pack.
 
 [Unreleased]: https://github.com/Gydunhn/Javascript-Essentials/tree/develop
+[0.2.0]: https://github.com/Gydunhn/Javascript-Essentials/releases/tag/0.2.0
+[0.1.1]: https://github.com/Gydunhn/Javascript-Essentials/releases/tag/0.1.1
 [0.1.0]: https://github.com/Gydunhn/Javascript-Essentials/releases/tag/0.1.0
 [0.0.8]: https://github.com/Gydunhn/Javascript-Essentials/releases/tag/0.0.8
 [0.0.7]: https://github.com/Gydunhn/Javascript-Essentials/releases/tag/0.0.7
