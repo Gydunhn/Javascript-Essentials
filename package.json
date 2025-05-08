@@ -67,6 +67,7 @@
         "dbaeumer.vscode-eslint",
         "christian-kohler.npm-intellisense",
         "VisualStudioExptTeam.vscodeintellicode",
+        "fractalbrew.backticks",
         "xabikos.JavaScriptSnippets",
         "firefox-devtools.vscode-firefox-debug"
     ]
