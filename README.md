@@ -89,6 +89,7 @@ This extension pack includes the following extensions:
 | Debugger for Firefox           | [![Badge for version for Visual Studio Code extension](https://flat.badgen.net/vs-marketplace/v/firefox-devtools.vscode-firefox-debug?icon=visualstudio&color=blue)](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug) [![Installs](https://flat.badgen.net/vs-marketplace/i/firefox-devtools.vscode-firefox-debug?color=blue)](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug) [![Rating](https://flat.badgen.net/vs-marketplace/rating/firefox-devtools.vscode-firefox-debug?color=blue)](https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug)       |
 
 [VSC-Essentials]: https://github.com/Gydunhn/VSC-Essentials
+[JavaScript Essentials extension pack]: https://github.com/Gydunhn/Javascript-Essentials
 [here]: /.vscode/settings.json
 [settings.json]: /.vscode/settings.json
 [Debugger for Firefox]: https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug
